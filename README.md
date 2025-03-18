@@ -20,14 +20,16 @@ Grade: 100/100
 ```c
 // test.c
 
-// Include the header
-#include "include/ft_printf.h"
+# include "include/ft_printf.h"
+# include <stdio.h>
 
 int main(void)
 {
-      // Call the function
-      ft_printf("Hello world!");
-      return (0);
+	printf ("Original printf function :\n");
+    printf("Hello world!\n");
+	ft_printf ("My ft_printf function :\n");
+    ft_printf("Hello world!\n");
+    return (0);
 }
 ```
 Compile the ``test.c`` file with the ft_printf library and run the program:
@@ -36,6 +38,9 @@ gcc test.c libftprintf.a && ./a.out
 ```
 Output should be:
 ```
+Original printf function :
+Hello world!
+My ft_printf function :
 Hello world!
 ```
 ## Supported options

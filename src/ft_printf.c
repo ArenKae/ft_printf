@@ -64,20 +64,3 @@ int	ft_printf(const char *str, ...)
 		return (-1);
 	return (count);
 }
-
-// TESTS
-/*int	main(void)
-{
-	//int	a = 42;
-	//int	*i;
-	int		result;
-
-	//i = &a;
-	printf ("Original printf function :\n");
-	result = printf ("%%%c", 'x');
-	printf ("\nReturn value = %d.\n", result);
-	printf ("My ft_printf :\n");
-	result = ft_printf ("%%%c", 'x');
-	printf ("\nReturn value = %d.", result);
-	return (0);
-}*/
