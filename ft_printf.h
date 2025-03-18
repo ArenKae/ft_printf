@@ -15,7 +15,7 @@
 
 # include <stdarg.h>
 # include <unistd.h>
-# include <stdint.h>
+# include <stdint.h>	// Needed for uintptr_t
 
 int		ft_printf(const char *str, ...);
 int		ft_format(va_list args, const char *str);
