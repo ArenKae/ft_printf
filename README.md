@@ -38,9 +38,9 @@ gcc test.c libftprintf.a && ./a.out
 ```
 Output should be:
 ```
-Original printf function :
+Original printf function:
 Hello world!
-My ft_printf function :
+My ft_printf function:
 Hello world!
 ```
 ## Supported options
