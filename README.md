@@ -18,7 +18,7 @@ Grade: 100/100
 - The resulting file is a static library archive. To use it in our future code, we must include its header and link the library during compilation.
 
 ```c
-#main.c
+// test.c
 
 // Include the header
 #include "ft_printf.h"
@@ -30,9 +30,9 @@ int main(void)
       return (0);
 }
 ```
-Compile the ``main.c`` file with the ft_printf library and run the program:
+Compile the ``test.c`` file with the ft_printf library and run the program:
 ```bash
-gcc main.c libftprintf.a && ./a.out
+gcc test.c libftprintf.a && ./a.out
 ```
 Output should be:
 ```
