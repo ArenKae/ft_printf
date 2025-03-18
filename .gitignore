@@ -1,0 +1,19 @@
+## Editor
+.vscode/*
+*~
+\#*\#
+
+# System files
+.DS_Store
+desktop.ini
+settings.json
+
+# Object files
+obj/
+*.o
+src/ *.o
+
+# Executables
+libft.a
+*.a
+*.out
