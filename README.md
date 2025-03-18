@@ -18,6 +18,8 @@ Grade: 100/100
 - The resulting file is a static library archive. To use it in our future code, we must include its header and link the library during compilation.
 
 ```c
+#main.c
+
 // Include the header
 #include "ft_printf.h"
 
