@@ -25,9 +25,9 @@ Grade: 100/100
 
 int main(void)
 {
-	printf ("Original printf function :\n");
+	printf ("Original printf function:\n");
     printf("Hello world!\n");
-	ft_printf ("My ft_printf function :\n");
+	ft_printf ("My ft_printf function:\n");
     ft_printf("Hello world!\n");
     return (0);
 }
