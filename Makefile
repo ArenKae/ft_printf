@@ -14,7 +14,7 @@ NAME = libftprintf.a
 CC = gcc
 AR = ar rcs
 CFLAGS = -Wall -Wextra -Werror
-INCLUDE = ft_printf.h
+INCLUDE = include/ft_printf.h
 OBJF = .cache_exists	# needed to create obj/ directory
 
 # Directories
