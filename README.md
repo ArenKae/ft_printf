@@ -44,14 +44,15 @@ My ft_printf function:
 Hello world!
 ```
 ## Supported options
-Format Specifier | Description</th>
+Format Specifier | Description
+-|-
 % | % followed by another % character writes % to the screen.
 c | writes a single character.
-s | writes a character string.</td>
-p | writes an implementation-defined character sequence defining a pointer address.</td>
-d or i | writes a signed integer to decimal representation.</td>
-u | writes an unsigned integer to decimal representation.</td>
-x or X | writes an unsigned integer to hexadecimal representation.</td>
+s | writes a character string.
+p | writes an implementation-defined character sequence defining a pointer address.
+d or i | writes a signed integer to decimal representation.
+u | writes an unsigned integer to decimal representation.
+x or X | writes an unsigned integer to hexadecimal representation.
 
 ## About variadic functions
 
