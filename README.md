@@ -4,7 +4,7 @@
   <img src="https://github.com/ArenKae/ArenKae/blob/main/42%20badges/ft_printfe.png" alt="ft_printf 42 project badge"/>
 </p>
 
-This project's goal is to implement our own printf() function from the C standard library. To achieve that, we will need to learn more about variadic functions in order to use a variable number of arguments.
+This project's goal is to implement our own `printf()` function from the C standard library. To achieve that, we will need to learn more about variadic functions in order to use a variable number of arguments.
 
 ## Status
 ✅ Completed on: 02/03/2023
