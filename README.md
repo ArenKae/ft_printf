@@ -45,7 +45,7 @@ Hello world!
 ```
 ## Supported options
 Format Specifier | Description
--|-
+|:-:|-
 % | % followed by another % character writes % to the screen.
 c | writes a single character.
 s | writes a character string.
