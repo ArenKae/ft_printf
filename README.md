@@ -7,7 +7,7 @@
 This project's goal is to implement our own `printf()` function from the C standard library. To achieve that, we will need to learn more about variadic functions in order to use a variable number of arguments.
 
 ## Status
-✅ Completed on: 02/03/2023
+✅ Completed on: 03/02/2023
 </br>
 🏆 Grade: 100/100
 
